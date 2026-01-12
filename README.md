@@ -50,6 +50,7 @@ todo-app/
 ├── script.js     # JavaScript logic
 └── README.md     # Project documentation
 
+```
 
 ## ⚙️ How to Run Locally
 

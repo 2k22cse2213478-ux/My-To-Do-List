@@ -42,15 +42,14 @@ The application helps users efficiently organize daily tasks with a clean, respo
 
 ## 📂 Project Structure
 
+```text
 todo-app/
 │
-├── index.html # Main HTML file
-├── style.css # Application styling
-├── script.js # JavaScript logic
-└── README.md # Project documentation
+├── index.html    # Main HTML file
+├── style.css     # Application styling
+├── script.js     # JavaScript logic
+└── README.md     # Project documentation
 
-
----
 
 ## ⚙️ How to Run Locally
 

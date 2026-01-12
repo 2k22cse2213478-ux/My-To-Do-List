@@ -111,8 +111,9 @@ The project is deployed on Vercel as a static web application.
 
 ## 👩‍💻 Author
 
-Gargi Mishra
+**Gargi Mishra**  
 Computer Science Student
+
 ## 📜 License
 
 This project is open-source and available for educational and learning purposes.

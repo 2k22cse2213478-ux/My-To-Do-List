@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating background elements -->
+    <div class="floating-bg">
+        <div class="float-clock">🕐</div>
+        <div class="float-task">✓</div>
+        <div class="float-clock">⏱</div>
+        <div class="float-task">✓</div>
+    </div>
+
+    <div class="todo-container">
+        <div class="header">
+            <h1 class="multicolor-heading">📋 My To-Do List</h1>
+            <div class="clock-display" id="clockDisplay">00:00:00</div>
+            <button id="darkModeToggle" title="Toggle dark mode" style="width:auto;min-width:40px;margin-left:10px;">🌙</button>
+        </div>
+
+        <div class="task-controls">
+            <input type="text" id="taskInput" placeholder="Enter a task...">
+            <input type="datetime-local" id="dueInput" title="Due date/time (optional)">
+            <select id="priorityInput" title="Priority">
+                <option value="High">High</option>
+                <option value="Medium" selected>Medium</option>
+                <option value="Low">Low</option>
+            </select>
+            <select id="categoryInput" title="Category">
+                <option value="Personal">Personal</option>
+                <option value="Study">Study</option>
+                <option value="Work">Work</option>
+            </select>
+            <button id="addBtn">➕ Add Task</button>
+        </div>
+
+        <div class="task-bar">
+            <div id="taskCounters">
+                <span id="totalTasks">Total: 0</span> |
+                <span id="completedTasks">Completed: 0</span> |
+                <span id="pendingTasks">Pending: 0</span>
+            </div>
+            <button id="clearAllBtn" style="width:auto;min-width:80px;">🗑️ Clear All</button>
+        </div>
+
+        <div class="search-filter-bar">
+            <input type="text" id="searchInput" placeholder="Search tasks...">
+            <button class="filter-btn" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="completed">Completed</button>
+            <button class="filter-btn" data-filter="pending">Pending</button>
+            <button class="filter-btn" data-filter="high">High Priority</button>
+        </div>
+
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
